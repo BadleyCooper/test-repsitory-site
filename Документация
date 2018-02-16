@@ -1,6 +1,6 @@
 # Документация
 Для запуска тестов необходимо установить: 
-1.  node.js download:  https://nodejs.org/en/download/
+1.  node.js:  https://nodejs.org/en/download/
 2.  selenium-webdriver http://www.seleniumhq.org/download/
 3.  webdriver:
     3.1 chromedriver for chrome
