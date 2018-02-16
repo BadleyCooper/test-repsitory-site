@@ -1,5 +1,5 @@
-# Документация
-Для запуска тестов необходимо установить: 
+# Documentation
+Should be download: 
 1.  node.js:  https://nodejs.org/en/download/
 2.  selenium-webdriver http://www.seleniumhq.org/download/
 3.  webdriver:
