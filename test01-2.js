@@ -53,7 +53,7 @@ describe('Check the searched items', function() {
                             if (txt.search(searchedItem) >= 0) {
                                 console.log("Searched element is true");
                             } else {
-                                console.log("Searched element is true");
+                                console.log("Searched element is false");
                             };
                     });
                 });
