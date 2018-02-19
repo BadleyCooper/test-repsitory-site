@@ -52,8 +52,10 @@ before(function(){
                           // console.log(txt.match(searchedItem));
                           if (txt.search(searchedItem) >= 0) {
                               console.log("Searched element is true");
+                              
                           } else {
                               console.log("Searched element is false");
+                              
                           };
                     });
                 });
