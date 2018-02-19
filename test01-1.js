@@ -51,22 +51,20 @@ describe('Check the searched items', function() {
         }).then(() => {    
             return y = driver.findElement(By.css('div.product_row:last-child'));
             
-        }).then(() => {   
+        }).then(() => {    
             return y = y.getAttribute('data-position').then(res =>{
                 return validIdItems = res;
             });
-                
-        }).then(() => {     
+           
+        }).then(() => { 
                 console.log('Number of elements in search results: ' + validIdItems);
             
         }).then(() => { 
-            if (validIdItems == validNumberOfItems) {
+            if (validIdItems == validNumberOfItems) {    
+                console.log("Number of elements are equal");  
                 
-            console.log("Number of elemnts are equal");  
-            
             } else {
-              
-            console.log("Number of elemnts are not equal");
+                console.log("Number of elements are not equal");
                 
             };
         });
