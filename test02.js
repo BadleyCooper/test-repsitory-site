@@ -116,7 +116,7 @@ describe('Check the searched items', function() {
               });
             });
           }).then(function(){
-          /*  console.log("All form strings are exists");
+          /*  console.log("All form strings are exist");
             return driver.findElements(By.css('tr td')).then(function(elements){
               return elements.map(function(elem){
                 return elem.getText().then(function(txt){
